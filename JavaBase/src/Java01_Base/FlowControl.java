@@ -1,4 +1,4 @@
-package Java01;
+package Java01_Base;
 
 public class FlowControl {
     public static void main(String[] args) {
@@ -10,6 +10,9 @@ public class FlowControl {
              *******
 
          */
+
+        // print 和 println，前者不换行，后者换行
+
         int level = 9;// 层数
         for (int i = 0; i < level; i++) {
             for (int j = 0; j < (level-1) - i; j++) {
